@@ -1,17 +1,11 @@
-const createTable = function () {
-  const tabellone = document.querySelector("tabellone");
+window.onload = function () {
+  const table = document.getElementById("table");
+  const btnEstrai = document.getElementById("randbtn");
 
   for (let i = 0; i < 76; i++) {
-    const singleCell = document.createElement("div");
-    singleCell.classList.add("cell");
-    const cellNum = document.createElement("h1");
-    cellNum.innerText = 1 + 1;
-    singleCell.style.display = "inline";
-    singleCell.appendChild(cellNum);
-    tabellone.appendChild(singleCell);
+    const containerNumber = document.createElement("div");
+    containerNumber.classList.add("numero");
+    containerNumber.innerText = i;
+    table.appendChild(containerNumber);
   }
-};
-
-window.onload = function () {
-  createTable();
 };

@@ -16,16 +16,23 @@ h1 {
   border: 1px solid rgb(124, 29, 29);
 }
 
-.input-field {
-  width: 10%;
-  margin-top: 20px;
-  padding: 5px;
-}
-
-.btn {
+.randbtn {
   width: 10%;
   margin-top: 20px;
   padding: 5px;
   background-color: #d8cccc;
   border: none;
+}
+
+#table {
+  background-color: rgb(255, 255, 255);
+  color: rgb(129, 36, 36);
+  width: 600px;
+}
+
+.numero {
+  display: inline-block;
+  width: 20%;
+  margin-right: -4px;
+  border: 2px solid rgb(0, 32, 102);
 }
